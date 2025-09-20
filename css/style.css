@@ -1,0 +1,75 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    
+}
+header{
+    margin: 20px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    color: black;
+}
+
+main{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.googleImg {
+    display: flex;
+    justify-content: center;
+
+   
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+
+.text{
+    border: 1px ;
+    border-radius: 30px;
+    padding: 15px;
+    width: 75%;
+    box-shadow: 1px 1px 5px  rgb(145, 144, 144);
+
+}
+
+.submit{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.submit input{
+    border: 1px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: rgb(250, 250, 250);
+    
+}
+
